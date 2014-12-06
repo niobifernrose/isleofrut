@@ -1,0 +1,15 @@
+# All files to ignore by git followed by reason.
+
+/.bundle 								# ignore bundler files
+/db/*.sqlite3 							# ignore database files
+/db/*.sqlite3-journal					# ignore database journal files
+/log/*.log 								# ignore log files
+/tmp 									# ignore temp files
+doc/									# ignore extra documentation
+*.swp						
+*~										# ignore cached copies
+.project					
+.DS_Store
+.idea
+.secret									# ignore secret keys
+config/initializers/secret_token.rb 	# ignore secret tokens
